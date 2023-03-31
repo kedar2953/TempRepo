@@ -1,0 +1,43 @@
+environ to run js outside browser i.e on machine(its a technology)
+
+Node.js is a server-side JavaScript runtime environment
+     JavaScript in the web browser is client-side JavaScript
+its open source
+it is built on chrome's V8 js engine (convert our code into machine code )
+if website is good looking - html css
+if responsive - js
+each browser has its js engine to run js
+we can use js at frontend , backend , dbs 
+
+diffn betwn
+browser js               node.js
+
+DOM                      NO DOM         
+Window                   No window (we will not write doc.querySelector())
+Interactive Apps         Server side Apps
+No filesystem            filesystem
+fragmentation            versions
+ES6 modules              commonJS
+
+to run app code in node - REPL(read evaluate print loop) CLI
+to do things in our local device that we do in browser console
+
+window in browser 
+    when you open a web page in a browser, the browser creates a window to display the contents of the page. The window object in JavaScript represents that window, and provides access to many built-in functions to interact with the browser and the web page.
+
+    window.alert() function to display a popup message with some text
+
+    window object is a top-level object in JavaScript that represents the global environment in which your code is executing
+
+IN node we have GLOBALS , no window because there is no browser , anywhere in our application we can access them
+    __dirname - path to current dir 
+    __filname - file name
+    require - func to use modules (COmmon JS)
+    module  - info about current module (file)
+    process - info about environment where the program is being executed
+
+commonJS - module specification for JavaScript
+     for organizing and sharing code between different JavaScript applications
+
+
+

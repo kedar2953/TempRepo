@@ -1,0 +1,21 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "1-modules.js",
+  "scripts": {
+    
+    "devStart":"nodemon script2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.2.3",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.0.3"
+  },
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
